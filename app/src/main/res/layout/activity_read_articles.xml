@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:text="Trevor Ariza trade to Washington Wizards from Phoenix Suns in works, sources say - ESPN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_read_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="#000"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    tools:srcCompat="@tools:sample/backgrounds/scenic[13]"
+                    android:id="@+id/iv_read_image"
+                    android:layout_below="@id/tv_read_title"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_read_contents"
+                    android:textColor="#000"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Blahla lhalhalh"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@id/iv_read_image"
+                    />
+        </RelativeLayout>
+
+</ScrollView>
